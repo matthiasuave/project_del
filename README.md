@@ -16,11 +16,11 @@ Project Del involves extracting Covid data from https://healthdata.gov/
         - top_states: (int) Number of top states with highest positivity rates. Default = 10.
 
 ## Required Libraries
-To install the required libraries for the application run `pip install -r src/requirements.txt` from the `project_del` directory. This will install all dependencies for the application to run.
+To install the required libraries for the application, via the terminal, run `pip install -r src/requirements.txt` from the `project_del` directory. This will install all dependencies for the application to run.
 
 ## Running the Application
 The driver to run the application can be found in `main.py` in the `project_del` directory.
-To run the application and view the results, run `python main.py` from the `project_del` directory.
+To run the application and view the results, run `python main.py` from the terminal in the `project_del` directory.
 
 All the parameters have been set to the asked questions as default values. 
 
