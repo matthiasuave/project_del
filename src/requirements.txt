@@ -1,2 +1,2 @@
 pandas==1.2.4
-datetime==
+datetime==4.4

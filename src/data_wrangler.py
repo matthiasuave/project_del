@@ -13,7 +13,7 @@ class DataWrangler:
         window: int. Number of days for the rolling average window. Defaul = 7.
         rolling_averages_days: int. Number of days to be caculated for the rolling average. Default = 30.
         positivity_rates_days: int. Number of days from when the rolling average window should start. Defaul = 30.
-        top_states: int. Number of top states with highest positivity rates.
+        top_states: int. Number of top states with highest positivity rates. Default = 10.
     """
 
     def __init__(self,
