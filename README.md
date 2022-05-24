@@ -21,7 +21,12 @@ To install the required libraries for the application run `pip install -r src/re
 ## Running the Application
 The driver to run the application can be found in `main.py` in the `project_del` directory.
 To run the application and view the results, run `python main.py` from the `project_del` directory.
-All the parameters have been set to the asked questions as default values. To edit the parameters like dates, etc, include the parameter(s) to be edited while instatiating the DataWrngler class in the main.py file (`data_wrangler_object = DataWrangler(...)`) together with their desired values.
+
+All the parameters have been set to the asked questions as default values. 
+
+To edit the parameters like dates, etc, include the parameter(s) to be edited while instatiating the DataWrngler class in the main.py file (`data_wrangler_object = DataWrangler(...)`) together with their desired values.
+
+The code that transforms the data and provides the metrics can be found in `src/data_wrangler.py`.
 
 ## Documentation
 The insights and caveats from the metrics can be found in the `Documentation.ipynb` notebook.
